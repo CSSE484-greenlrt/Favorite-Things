@@ -12,6 +12,7 @@
 		94F4C3F32076832B00F1ABE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F4C3F12076832B00F1ABE6 /* Main.storyboard */; };
 		94F4C3F52076832B00F1ABE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F4C3F42076832B00F1ABE6 /* Assets.xcassets */; };
 		94F4C3F82076832B00F1ABE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F4C3F62076832B00F1ABE6 /* LaunchScreen.storyboard */; };
+		94F4C400207683CC00F1ABE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94F4C3FF207683CC00F1ABE6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		94F4C3F42076832B00F1ABE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94F4C3F72076832B00F1ABE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94F4C3F92076832B00F1ABE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F4C3FF207683CC00F1ABE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		94F4C401207683E600F1ABE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,7 @@
 		94F4C3E12076832B00F1ABE6 = {
 			isa = PBXGroup;
 			children = (
+				94F4C3FF207683CC00F1ABE6 /* GoogleService-Info.plist */,
 				94F4C3EC2076832B00F1ABE6 /* Favorite Things */,
 				94F4C3EB2076832B00F1ABE6 /* Products */,
 			);
@@ -54,6 +58,7 @@
 		94F4C3EC2076832B00F1ABE6 /* Favorite Things */ = {
 			isa = PBXGroup;
 			children = (
+				94F4C401207683E600F1ABE6 /* GoogleService-Info.plist */,
 				94F4C3ED2076832B00F1ABE6 /* AppDelegate.swift */,
 				94F4C3EF2076832B00F1ABE6 /* ViewController.swift */,
 				94F4C3F12076832B00F1ABE6 /* Main.storyboard */,
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F4C3F82076832B00F1ABE6 /* LaunchScreen.storyboard in Resources */,
+				94F4C400207683CC00F1ABE6 /* GoogleService-Info.plist in Resources */,
 				94F4C3F52076832B00F1ABE6 /* Assets.xcassets in Resources */,
 				94F4C3F32076832B00F1ABE6 /* Main.storyboard in Resources */,
 			);
