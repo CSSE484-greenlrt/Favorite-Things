@@ -7,7 +7,7 @@ target 'Favorite Things' do
 
   # Pods for Favorite Things
 
-  pod 'Firebase'
-  pod 'Firebase/Database'
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
 
 end
